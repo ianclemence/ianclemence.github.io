@@ -1,3 +1,33 @@
+<?php
+$message_sent = false;
+if (isset($_POST['submit'])) {
+
+
+  if (isset($_POST['email']) && $_POST['email'] != '') {
+
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+      $userName = $_POST['name'];
+      $userEmail = $_POST['email'];
+      $message = $_POST['message'];
+
+      $to = "ianclemence17@gmail.com";
+      $messageSubject = $_POST['subject'];
+      $body = "";
+
+      $body .= "From: " . $userName . " \r\n";
+      $body .= "Email: " . $userEmail . " \r\n";
+      $body .= "Message: " . $message . " \r\n";
+
+      mail($to, $messageSubject, $body);
+      echo $success_message;
+      $message_sent = true;
+    }
+  }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +65,7 @@
     <div class="container">
 
       <h1><a href="index.php">Ian Clemence</a></h1>
-        <h2>I'm a <span>Full-Stack Web Developer</span> from Tanzania</h2>
+      <h2>I'm a <span>Full-Stack Web Developer</span> from Tanzania</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -95,7 +125,7 @@
             </div>
           </div>
           <p>
-            This has allowed me to stay ahead of the curve and deliver exceptional work to all of my clients and employers, including those I've worked for on a project basis. I am results-focused, professional, and great in collaboration—I assist clients accomplish exceptional and sustainable outcomes. 
+            This has allowed me to stay ahead of the curve and deliver exceptional work to all of my clients and employers, including those I've worked for on a project basis. I am results-focused, professional, and great in collaboration—I assist clients accomplish exceptional and sustainable outcomes.
             <br>
             <br>
             See me as a technology enthusiast with a keen eye on utilizing the latest industry developments in developing scalable and easy-to-use products.
@@ -283,7 +313,7 @@
             </ul>
             </p>
           </div>
-            <div class="resume-item">
+          <div class="resume-item">
             <h4>Fundamentals of Ethical Hacking and Cyber Security</h4>
             <h5>2018 - 2020</h5>
             <p><em>Udemy, Online</em></p>
@@ -527,7 +557,7 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="#" method="post" role="form" class="php-email-form mt-4">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -545,6 +575,18 @@
         <div class="my-3">
           <div class="loading">Loading</div>
           <div class="error-message"></div>
+          <?php
+          if ($message_sent) :
+          ?>
+            <div class="alert alert-success alert-dismissible fade show text-center mb-0 rounded-0 ms-alert-box" role="alert">
+              <p class="mb-0">Your message has been sent. Thank you!</p>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span class="ms-cross" style="position:relative;bottom:5px;" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <?php
+          endif;
+          ?>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
