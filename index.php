@@ -274,7 +274,7 @@
           </div>
           <div class="resume-item">
             <h4>The Complete Web Development Course</h4>
-            <h5>2018 - 2020</h5>
+            <h5>2020 - 2021</h5>
             <p><em>The Free Code Camp, Online</em></p>
             <p>
             <ul>
@@ -285,7 +285,7 @@
           </div>
           <div class="resume-item">
             <h4>Fundamentals of Ethical Hacking and Cyber Security</h4>
-            <h5>2018 - 2020</h5>
+            <h5>2019 - 2020</h5>
             <p><em>Udemy, Online</em></p>
             <p>
             <ul>
@@ -303,9 +303,9 @@
             <p><em>Freelance </em></p>
             <p>
             <ul>
-              <li>Understanding the client’s definition of success and aligning development efforts to meet their goals.</li>
-              <li>Utilizing modern frameworks and approaches to undertake comprehensive programming tasks for front-end websites as well as challenging back-end server code.</li>
-              <li>Collaborating with other engineers remotely to write well-designed, testable, and efficient code.</li>
+              <li>Understood the client’s definition of success and aligned development efforts to meet their goals.</li>
+              <li>Utilized modern frameworks and approaches to undertake comprehensive programming tasks for front-end websites as well as challenging back-end server code.</li>
+              <li>Collaborated with other developers remotely to write well-designed, testable, and efficient code.</li>
             </ul>
             </p>
           </div>
@@ -315,9 +315,10 @@
             <p><em>Kilimanjaro Christian Medical Centre, Moshi, Tanzania</em></p>
             <p>
             <ul>
-              <li>Diagnosing, repairing and maintaining hardware and software components to ensure the smooth running of computer systems.</li>
-              <li>Troubleshooting hardware and software issues.</li>
-              <li>Creating 4+ management systems for the above institution</li>
+              <li>Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding.</li>
+              <li>Oversaw back-end development using PHP to maintain website integrity, security and efficiency.</li>
+              <li>Set up hardware and software in optimal configurations to meet network performance requirements.</li>
+              <li>Responded to support requests from end users and patiently walked individuals through basic troubleshooting tasks.</li>
             </ul>
             </p>
           </div>
