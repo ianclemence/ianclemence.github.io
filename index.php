@@ -269,6 +269,7 @@
               <li>Learnt how the principles and concepts in business and information technology can be applied to enhance a company's success in the modern world.</li>
               <li>Gained an in-depth understanding on how organisations can harness data to improve decision-making.</li>
               <li>Through building information systems, I gained a better understanding of web development and software engineering.</li>
+              <li>Built dynamic database-driven websites using back-end technologies like NodeJS, PHP, AJAX, JSON.</li>
             </ul>
             </p>
           </div>
@@ -279,7 +280,9 @@
             <p>
             <ul>
               <li>Learnt the core concepts required for a complete web development process, from front-end to back-end.</li>
+              <li>Created a fully functional Car Sharing App which users around the world can use to share car trips. (using HTML5, CSS3, Javascript, PHP, MySQL, AJAX & JSON)</li>
               <li>Mastered the fundamental tenets in building feature-rich and versatile web applications.</li>
+              <li>Use advanced skills to connect your websites to APIs like Google Maps, Facebook, Google plus and Twitter.</li>
             </ul>
             </p>
           </div>
@@ -291,6 +294,8 @@
             <ul>
               <li>Learnt how to sniff network traffic & analyse it to extract important info such as: passwords, cookies, urls, videos, images ..etc.</li>
               <li>Learnt how to discover open ports, installed services and vulnerabilities on computer systems.</li>
+              <li>Understood how websites work, how to discover and exploit web application vulnerabilities.</li>
+              <li>Learnt how to secure systems from future external cyber attacks.</li>
             </ul>
             </p>
           </div>
