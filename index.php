@@ -83,7 +83,7 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 Feb 2000</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="ianclemence.github.io">ianclemence.github.io</a></span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+254 790 110 383</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+255 754 251 152</span></li>
               </ul>
             </div>
             <div class="col-lg-6">
@@ -415,7 +415,7 @@
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Call Me</h3>
-            <p>+254 790 110 383</p>
+            <p>+255 754 251 152</p>
           </div>
         </div>
       </div>
