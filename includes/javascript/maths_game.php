@@ -2,10 +2,10 @@
     <div class="portfolio-wrap">
         <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
         <div class="portfolio-info">
-            <h4>JavaScript 1</h4>
+            <h4>Maths Game</h4>
             <p>JavaScript</p>
             <div class="portfolio-links">
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="maths_game.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
             </div>
         </div>
     </div>
