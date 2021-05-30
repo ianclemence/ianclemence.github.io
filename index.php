@@ -358,13 +358,13 @@
 
         <?php
         include('includes/css/neumorphism.php');
-        include('includes/web/web3.php');
+        include('includes/web/ezee_handle.php');
         include('includes/css/drop.php');
-        include('includes/javascript/js1.php');
-        include('includes/web/web2.php');
-        include('includes/javascript/js2.php');
-        include('includes/python/python1.php');
-        include('includes/python/python3.php');
+        include('includes/javascript/maths_game.php');
+        include('includes/web/kcmc.php');
+        include('includes/javascript/stopwatch_app.php');
+        include('includes/python/covid19_bot.php');
+        include('includes/python/speech_to_text.php');
         ?>
 
 
